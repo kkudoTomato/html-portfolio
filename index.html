@@ -9,10 +9,48 @@
   <link rel="stylesheet" href="./css/style.css" >
 </head>
 
-<body>
+<body class="lightblue">
+
+  <section id="header">
+    <header class="p-3  border-bottom">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Customers</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Products</a></li>
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          </form>
+  
+          <div class="dropdown text-end">
+            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  </section>
+  
 
   <!-- Title -->
-  <section id="title", class="lightblue">
+  <section id="title" class="lightblue">
     <div class="container col-xxl-8 px-4 pt-5">
       <div class="row flex-lg-row-reverse align-items-center g-5">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -43,6 +81,29 @@
 
   <!-- Self Introduction -->
   <section id="selfIntro">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row align-items-start g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-4 ">
+          <img src="/images/dogImg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" loading="lazy">
+        </div>
+        <div class="col-lg-8">
+          <div class="row flex-lg-row mb-5 align-items-center">
+            <div class="col-5">
+              <h2 class="display-5 fw-bold text-body-emphasis lh-1">About Me</h2>
+            </div>
+            <div class="col-lg-7" id="greenline">
+            </div>
+          </div>
+          <p class="lead mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a pulvinar purus, at condimentum massa. Vestibulum fringilla commodo nunc nec imperdiet. Nullam nec feugiat elit, quis pellentesque dolor. Nulla vitae euismod erat. Sed porttitor justo neque, lacinia scelerisque tortor tincidunt sit amet. Nulla posuere elementum metus, vel aliquam nibh fringilla ac. Ut quis dignissim urna, sit amet ullamcorper ante. Aliquam vitae est augue. 
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Hire Me</button>
+            <button type="button" class="btn btn-outline-dark btn-lg px-4">Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
 

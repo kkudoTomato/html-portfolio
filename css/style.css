@@ -9,3 +9,23 @@ h1 {
     background-color: #94d8a8;
 
 }
+
+.btn-primary {
+    --bs-btn-bg: #94d8a8;
+    --bs-btn-border-color: #94d8a8;
+
+    --bs-btn-hover-bg: #286d3c ;
+  }
+
+.btn-outline-dark{
+    --bs-btn-border-color: #afafff;
+    --bs-btn-hover-bg: #afafff;
+    --bs-btn-hover-border-color: #afafff;
+    --bs-btn-hover-color: black;
+    border-width:3px !important
+}
+
+#greenline{
+    background-color: #94d8a8;
+    height: 5px;
+}
