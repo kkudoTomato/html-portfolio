@@ -29,3 +29,9 @@ h1 {
     background-color: #94d8a8;
     height: 5px;
 }
+
+.progressBar{
+    background-color: #94d8a8;
+    height: 20px;
+    border-radius: 5%;
+}
